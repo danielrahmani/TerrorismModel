@@ -78,6 +78,8 @@ For more details on embedding layer in keras look at: https://machinelearningmas
 
 For the imputation strategy: http://vikas.sindhwani.org/KDDCup-jmlr09.pdf
 
+Bayesian optimization: https://thuijskens.github.io/2016/12/29/bayesian-optimisation/#parameter-selection-of-a-support-vector-machine
+
 
 
 
