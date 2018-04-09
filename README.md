@@ -41,12 +41,13 @@ There is a similar GitHub project by Chris Cronin at https://ccronin51.github.io
 
 | Models        | Accuracy (Cronin)  | Accuracy (Rahmani)  |
 | ------------- |:-------------:| :-----:|
-| Decision Tree    | 0.9478|  |
-| Random Forest       | 0.9472     |    |
-| Logistic Regression | 0.9337      |     |
-| SVC | 0.8856| |
-| Naive Bayes | 0.8384| |
-| KNN |0.7218 | |
+| Decision Tree    | 0.9478| 0.9621 |
+| Random Forest       | 0.9472     |  0.9689  |
+| Logistic Regression | 0.9337      |  0.9763   |
+| SVC | 0.8856| 0.97134|
+| Naive Bayes | 0.8384| 0.6149|
+| KNN |0.7218 |0.8701 | 
+| deep | -- | 0.9328|
 | Hard Vote | 0.9328| |
 | Soft Vote | 0.9265 | |
 
