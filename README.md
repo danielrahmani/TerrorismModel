@@ -2,6 +2,8 @@
 
 In this project the Global Terrorism Database (asdGTD) is studied. The ultimate goal of the project is to use attack type, weapons used, description of the attack, etc. to build a model that can predict what group may have been responsible for an incident. 
 
+The data set is stored in data.zip file. Download and unzip the file to get the dataset (terrorist_data.csv).
+
 There are three main notebooks in this project and each one can be run independently:
 
 1. Terrorism_ML
@@ -31,7 +33,10 @@ For hyperparameter selection I have used hyperopt package which applies the Baye
 ## Terrorism_deep
 In the Terrorism_deep notebook two deep neural model are built using Keras. In one model, only numerical features are used and in another model all features are used. The accuracy of models are compared. 
 
-The preprocessing is more or less the same as the Terrorism_ML notebook. One major difference is that instead of using TfidfVectorizer for text features, pre_trained GloVe embedding is used for explanatory features (summary and scite1) and onehot encoder is used for other text features. Keras Functional API is used to build a network with three inputs. Two embedding layers for text features and one dense layer for numerical features.¶
+The preprocessing is more or less the same as the Terrorism_ML notebook. One major difference is that instead of using TfidfVectorizer for text features, pre_trained GloVe embedding is used for explanatory features (summary and scite1) and onehot encoder is used for other text features. Keras Functional API is used to build a network with three inputs. Two embedding layers for text features and one dense layer for numerical features.
+
+To use GloVe pretrained package download the smallest package of embeddings  (822Mb), called "glove.6B.zip" from https://nlp.stanford.edu/projects/glove/. After downloading and unzipping, you will see a few files, one of which is "glove.6B.100d.txt", which contains a 100-dimensional version of the embedding. We will use this file.
+
 
 ## Terrorism_Visualization
 In the visulaization notebook (Terrorism_Visualization), various types of basuc analysis are performed and the results are visualized. Analysis and visualization on word frequency, word cloud, statistical information (e.g. the most deadly year, country with highest number of fatalities), world map of fatalities, missing values, etc. are presented in this notebook.
