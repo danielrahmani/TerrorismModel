@@ -53,8 +53,8 @@ There is a similar GitHub project by Chris Cronin at https://ccronin51.github.io
 | Naive Bayes | 0.8384| 0.6149|
 | KNN |0.7218 |0.8701 | 
 | deep | -- | 0.9328|
-| Hard Vote | 0.9328| |
-| Soft Vote | 0.9265 | |
+| Hard Vote | 0.9328| 0.9779|
+| Soft Vote | 0.9265 | 0.9777|
 
 
 ### References
