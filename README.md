@@ -13,10 +13,11 @@ There are three main notebooks in this project and each one can be run independe
 
 ## Terrorism_ML
 The Terrorism_ML notebook is the major notebook in this project, in which various machine learning models such as XGBoost Classifier, Logistic Regression Classifier, C-Support Vector Classifier, etc. are built and their accuracy are compared.
+
 For imputing nulls in the dataset:
 1. Text features such as summary are imputed by empty.
 2. Nominal/categorical features are imputed by just a different new value. (e.g. -9 in binary features)
-3. Numerical features are imputed using fancyimpute, but a new binary feature is created for each numerical features with 0 if the value was there and 1 for missing.
+3. Numerical features are imputed using fancyimpute, but a new binary feature is created for each numerical features with 1 if the value was missing and 0 otherwise.
 
 The text features that contain explanatory information (summary and scite1) are stemmed using nltk package. After stemming all other text features are merged and stopwords, punctuations, numbers and white spaces are removed.
 
