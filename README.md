@@ -6,12 +6,12 @@ The data set is stored in data.zip file. Download and unzip the file to get the 
 
 There are three main notebooks in this project and each one can be run independently:
 
-1. Terrorism_ML
+1. Terrorism_model
 2. Terrorism_deep
 3. Terrorism_Visualization
 
 
-## Terrorism_ML
+## Terrorism_model
 The Terrorism_ML notebook is the major notebook in this project, in which various machine learning models such as XGBoost Classifier, Logistic Regression Classifier, C-Support Vector Classifier, etc. are built and their accuracy are compared.
 
 For imputing nulls in the dataset:
