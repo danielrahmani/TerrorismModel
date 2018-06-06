@@ -1,6 +1,6 @@
 # TerrorismData
 
-In this project the Global Terrorism Database (asdGTD) is studied. The ultimate goal of the project is to use attack type, weapons used, description of the attack, etc. to build a model that can predict what group may have been responsible for an incident. 
+In this project the Global Terrorism Database (GTD) is studied. The ultimate goal of the project is to use attack type, weapons used, description of the attack, etc. to build a model that can predict what group may have been responsible for an incident. 
 
 The data set is stored in data.zip file. Download and unzip the file to get the dataset (terrorist_data.csv).
 
